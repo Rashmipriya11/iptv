@@ -51,8 +51,8 @@ body a:hover,body a:focus{
 }
 .banner-text h6 {
     background: #fff;
-    width: 3%;
-    height: 1px;
+    width: 6%;
+    height: 2px;
     margin: 0 auto 3em;
     color: transparent;
 }
@@ -64,7 +64,7 @@ body a:hover,body a:focus{
     letter-spacing: 5px;
 }
 .banner-text h4 {
-    font-size: 2.5em;
+    font-size: 4.8em;
     color: #fff;
     margin:0.5em 0 1em;
     letter-spacing: 4px;
@@ -352,22 +352,21 @@ h3.agileits-title span {
 /*-- //reservation --*/
 /*-- services --*/
 .services {
-    background: url(../images/two.png)no-repeat center fixed;
-    background-size: cover;
+    background-color:#fff; 
     position: relative;
 	z-index: 1;
 }
 .services:before {
     content: '';
     position: absolute;
-    background: rgba(0, 0, 0, 0.63);
+    background:#fff; /*rgba(0, 0, 0, 0.63);*/
     top: 0;
     width: 100%;
     height: 100%;
 	z-index: -1;
 }
 .services h3.agileits-title.w3title1,.feedback h3.agileits-title.w3title1{
-	color:#fff;
+	color:black;
 }
 h3.agileits-title.w3title1 {
     text-align: center;
@@ -398,7 +397,7 @@ h3.agileits-title.w3title1 {
     letter-spacing: 2px;
 }
 .w3ls_services_grid {
-    margin-top: 4em;
+    margin-top: 20px;
 }  
 /*-- Sweep To Bottom --*/
 .hvr-w3lsweep {
@@ -1803,9 +1802,7 @@ h3.fff{
 p.space{
     margin-left:15px; 
 }
-.kk{
-    margin-top:-45px;
-}
+
 .banner-text span{
     line-height:20px;
     position:absolute;
@@ -1882,6 +1879,12 @@ img.power-img{
     small.sml{
         margin-left:-14px; 
     }
+    .kk{
+        margin-top:-40px; 
+    }
+    .pp{
+        margin-top:-6px; 
+    }
 }
 @media(max-width: 767px){
     small.sml{
@@ -1900,4 +1903,84 @@ a.city{
 }
 
 
-/*-- //responsive-design --*/
+
+@media(max-width:767px){
+h4.demo{
+    color:#0481c3; 
+}
+.and p{
+    font-size:10px; 
+}
+a.city{
+    font-size:28px; 
+   margin-left:102px; 
+}
+p.frst{
+    color:black; 
+}
+p.b{
+    color:black; 
+}
+
+}
+
+p.space{
+    color:black;
+}
+h3.oo{
+    border-bottom:solid 1px black;
+    padding-bottom:30px; 
+}
+small.m{
+   margin-left:-20px; 
+}
+small.n{
+   margin-left:8px; 
+}
+small.o{
+   margin-left:80px; 
+}
+small.p{
+   margin-left:66px; 
+}
+form{
+    margin-top:-16px;  
+}
+h3.jj{
+    margin-top:-40px; 
+}
+
+
+
+@media(min-width:1200px){
+    h4.demo{
+    color:#0481c3; 
+    margin-top:-10px; 
+}
+}
+@media(max-width:767px){
+    small.m{
+   margin-left:-20px;
+   width:50px;
+   font-size:9px; 
+}
+small.n{
+   margin-left:8px;
+
+}
+small.o{
+   margin-left:74px; 
+}
+small.p{
+   margin-left:62px; 
+}
+form{
+    margin-top:-16px;  
+}
+
+.ii{
+    padding-bottom:30px; 
+}
+}
+
+/*-- //responsive-design --3
