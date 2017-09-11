@@ -1983,4 +1983,51 @@ form{
 }
 }
 
+@media(max-width:767px ){
+    h4.demo{
+        color:#0481c3 !important; 
+    }
+}
+@media(max-width:767px){
+    .and li p{
+        font-size:9.4px !important; 
+    }
+}
+@media(max-width:767px){
+    a.city{
+        margin-left:100px !important; 
+    }
+}
+@media(max-width:767px){
+    p.frst{
+        color:black !important;
+        margin-right:200px;  
+    }
+    p.b{
+        color:black !important;
+        margin-right:150px; 
+    }
+}
+@media(min-width:767px){
+       small.m{
+   margin-left:-20px !important;
+   width:50px !important;
+   font-size:9px !important; 
+}
+small.n{
+   margin-left:8px !important;
+
+}
+small.o{
+   margin-left:74px !important; 
+}
+small.p{
+   margin-left:62px !important; 
+}
+form{
+    margin-top:-16px !important;  
+}
+
+}
+
 /*-- //responsive-design --3
